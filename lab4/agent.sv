@@ -5,7 +5,7 @@ include "./lab3/monitor.sv"
 include "./lab3/driver.sv"
 include "./lab1/sequencer.sv"
 
-class agernt extends uvm_agent;
+class agent extends uvm_agent;
 `uvm_component_utils(agent);
 
 monitor mon;

@@ -2,13 +2,8 @@
 `include "uvn_macros.svh"
 import uvm_pkg::*;
 
-
-
-
 class subscriber extend uvm_subscriber #(sequence_item);
-
 `uvm_component_utils(subscriber)
-
 sequence_item item;
 covergroup alucoverage;
    A : coverpoint item.A;
